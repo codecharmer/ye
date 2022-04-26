@@ -75,9 +75,7 @@
 				<div class="d-flex justify-content-center align-items-center h-100">
 					<div class="text-white">
 					<h1 class="mb-3"><?= the_title();?></h1>
-					<a class="btn btn-outline-light btn-lg" href="#!" role="button"
-					>Buy the new Album</a
-					>
+					<a class="btn btn-outline-light btn-lg" href="#!" role="button">Buy the new Album</a>
 					</div>
 				</div>
 			</div>
