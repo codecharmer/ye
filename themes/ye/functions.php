@@ -383,6 +383,19 @@ if ( ! function_exists( 'ye_comment' ) ) :
 	}
 
 
+	/**
+	 * Return template content.
+	 *
+	 * @param string $slug Template path.
+	 * @param array  $vars Variables to be used in the template.
+	 *
+	 * @return string Template markup.
+	 */
+	function ye_theme_get_template( $slug, $vars = [] ) {
+
+		get_template_part( $slug, null, $vars );
+
+	}
 
 
 	/**
