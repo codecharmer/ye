@@ -391,7 +391,7 @@ if ( ! function_exists( 'ye_comment' ) ) :
 	 *
 	 * @return string Template markup.
 	 */
-	function ye_theme_get_template( $slug, $vars = [] ) {
+	function ye_part( $slug, $vars = [] ) {
 
 		get_template_part( $slug, null, $vars );
 
